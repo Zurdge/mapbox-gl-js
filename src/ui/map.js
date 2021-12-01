@@ -2627,6 +2627,8 @@ class Map extends Camera {
             height = this._container.getBoundingClientRect().height || 2500;
         }
 
+		console.log("Creating canvas with dimensions : ", {width, height})
+
         return [width, height];
     }
 
