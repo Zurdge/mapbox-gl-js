@@ -415,6 +415,9 @@ class Map extends Camera {
     touchPitch: TouchPitchHandler;
 
     constructor(options: MapOptions) {
+
+		console.log("MAP CONTRSUTOR");
+		
         PerformanceUtils.mark(PerformanceMarkers.create);
 
         options = extend({}, defaultOptions, options);
